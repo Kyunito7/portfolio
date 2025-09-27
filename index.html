@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juan | Web Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Poppins', sans-serif; margin: 0; padding: 0; color: #2c3e50; }
+    header { background: #1a252f; color: white; padding: 60px 20px; text-align: center; }
+    header h1 { margin: 0; font-size: 2.5em; }
+    header p { font-size: 1.2em; margin: 10px 0; }
+    header a { background: #e67e22; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; }
+    nav { background: #2c3e50; padding: 10px; text-align: center; position: sticky; top: 0; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: 600; }
+    section { padding: 60px 20px; max-width: 1000px; margin: auto; }
+    h2 { text-align: center; margin-bottom: 40px; }
+    .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+    .card { border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .card img { width: 100%; height: auto; }
+    .card h3 { margin: 15px; }
+    .card p { margin: 0 15px 15px; }
+    footer { background: #1a252f; color: white; text-align: center; padding: 20px; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <header>
+    <h1>Juan – Web Developer</h1>
+    <p>I build modern, accessible websites for small businesses</p>
+    <a href="#contact">Hire Me</a>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a web developer specialized in HTML, CSS, JavaScript, and WordPress. 
+       I create responsive and accessible websites that help businesses grow online.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="projects">
+      <div class="card">
+        <img src="landing-page.jpg" alt="Landing Page Project">
+        <h3>Landing Page</h3>
+        <p>Responsive landing page for a local business.</p>
+      </div>
+      <div class="card">
+        <img src="3page-site.jpg" alt="3 Page Website Project">
+        <h3>3-Page Website</h3>
+        <p>Professional multi-page website for an entrepreneur.</p>
+      </div>
+      <div class="card">
+        <img src="wordpress-site.jpg" alt="WordPress Project">
+        <h3>WordPress Business Site</h3>
+        <p>Custom WordPress site with blog and contact form.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: tuemail@ejemplo.com</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Juan – Web Developer</p>
+  </footer>
+</body>
+</html>
